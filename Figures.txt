@@ -1,0 +1,179 @@
+
+Figures Left : 24,25,26,27,30,33,36
+
+
+
+Figure 24: 
+
+Remove D/A
+
+Average starting basic salary by Region
+
+-Column BP for Region
+-Column BI for Basic salary but based on average
+
+For Example:
+Let’s take for Africa:
+4 person said their company Location is Africa. 1 of them has salary $1201-$1500
+And 2 of them has salary $2001-$3000
+And 1 of the salary above 3000$
+
+Now to get the average:
+
+The first salary average is 1300$ and the second 2500$ and the third 3000$
+
+Total person in Africa:4
+
+So 1300x1+ 2500x2+ 3000x1 =9300
+
+9300$/4 person Africa =2325$
+
+---------------------------------------
+Figure 25
+like figure 24 but program instead of Region
+•Remove D/A
+
+-column BI but based on average
+-column M for program 
+
+Example:
+ Take BA in Communication Arts
+2 persons in total
+-1 has salary $1001-$1200
+-1 has salary $700-1000
+
+The average of first salary is 1100
+The average of second is 850$
+
+So 1x100+ 1x850=1950
+1950/2 total persons = $975
+
+----------------------------------------------------------
+
+Figure 26 average + Industry
+•Remove D/A
+
+-column BI
+-column BL for industry
+
+Example:
+-Agriculture,Food & Natural Resources there is 1 person
+His salary below $700
+
+
+Take $700 as average
+So 700$/1 person = 700$
+
+
+Example 2:
+Education and Training  3 total persons
+1 has salary in $700-1000$
+2 persons below $700
+
+The average of first is 850$
+The 2 other persons is $700
+
+So 850x 1 + 700x2 = 2250
+2250/3 total persons = $750
+
+---------------------------------------------------
+
+Figure 27:
+Same concept
+Remove D/A
+
+Average Starting With respect to to time from Graduation
+
+-Column BE time to find job
+-Column BI for basic Salary
+
+Example:
+
+Let’s take 1-2 years
+
+Total who choose it: 41
+
+6 persons said salary $1001-$1200
+7 persons said salary $1201-$1500
+2 person said $1501-$2000
+1 person said $2001-$3000
+23 persons said $700-1000
+2 person said below $700
+
+
+Take average
+ 
+6x1100+ 7x1300+ 2x1850+ 1x2500+ 23x 850 + 2x 700=42850
+
+42850$/ 41 persons chose 1-2 years
+So result is 1045$
+--------------------------------------------------------------
+
+Figure 30:
+Alumni who were offered a full- time Job
+
+Take 2 columns 
+
+  1-Column M for Program 
+  2- Column AM (Remove D/A)
+
+In Column AM, we will have Yes and No 
+We need to calculate % of getting Yes
+(Similar to previous figure you did)
+Example: BA in Fashion Design
+9 person in total
+5 said  No
+4 said Yes 
+so 4/9 = 44%
+
+----------------------------------------------------------
+
+Figure 33:
+
+Remove D/A
+
+2 columns needed:
+
+-Column H for Gender
+-Column CS  (Remove D/A)
+
+In Column CS we are left with Yes and No
+
+We Need to find the % of Yes 
+
+
+Example:
+We will get:
+Total Female:262
+Female 62 said No
+And 200 said Yes
+
+
+So 200/262 = 76%
+
+For Male:
+
+Total Male=214
+
+59 said No
+155 said Yes
+
+So 155/ 214= 72%
+
+----------------------------------------------------------------
+Figure 36:
+Remove D/A
+
+The figure answers are found in column:
+
+-Functioning as a Team member :Column CZ
+-Ability to Think Critically:Column CX
+-Developing Oral communication skills:Column DD
+-Developing written communication skills:Column DC
+-Instilling commitment for life-long learning:Column CY
+-Become Aware of Ethical Issues:column DE
+-Development management/leadership :column DA
+-Acquiring theoretical skills.. :column CV
+-Becoming aware of legal and social issues:column DF
+-Use effective modern technology:columm DB
+-Acquiring technical skills to pursue a career path.. : Column CW
