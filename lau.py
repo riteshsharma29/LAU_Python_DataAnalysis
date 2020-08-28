@@ -1234,6 +1234,12 @@ else:
     fig_13_d['BA in Fine Arts - ' + str(BIFA_per)[0:2] + "%"] = int(str(BIFA_per)[0:2])
 fig_13_perc.append(int(str(BIFA_per)[0:2]))
 
+# code to delete 0%
+per_0_13 = []
+per_0_13 = [k for k,v in fig_13_d.items() if v == 0]
+for d_13 in range(0,len(per_0_13)):
+    del fig_13_d[per_0_13[d_13]]
+
 fig13_df_nw = pd.Series(fig_13_d)
 fig13_df_nw = fig13_df_nw.sort_values(ascending=True)
 plt.barh(range(len(fig13_df_nw)), fig13_df_nw.values, align='center')
